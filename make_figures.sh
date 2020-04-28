@@ -17,4 +17,9 @@ python plot_trend.py vo _trend_matrix top15m
 python plot_trend.py uo _trend_matrix 1000m
 python plot_trend.py vo _trend_matrix 1000m
 
+python plot_pval.py uo _trend_pvalue top15m
+python plot_pval.py vo _trend_pvalue top15m
+python plot_pval.py uo _trend_pvalue 1000m
+python plot_pval.py vo _trend_pvalue 1000m
+
  
