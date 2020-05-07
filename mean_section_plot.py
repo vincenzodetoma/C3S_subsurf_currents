@@ -15,9 +15,9 @@ var = ds[variable].mean(dim='time').squeeze().rename(variable + r' $[m/s]$')
 val=0.15
 colors='RdBu_r'
 if (section=='A3'):
-  xname='lat'
+  xname='longitude'
 else:
-  xname='lon'
+  xname='latitude'
 
 mask = xu.isnan(var)
 fig = plt.figure(1, figsize=(15,8))
